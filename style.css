@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    font-family: Nunito;
+}
+
+
+main {
+    /* display: grid;
+    grid-template-areas: 
+        "head"
+        "who"
+        "what"; */
+    /* border: 1px solid black; */
+    margin: 8% 20%;
+}
+
+section {
+    padding-bottom: 3%;
+    border-bottom: 1px solid lightgray; 
+    text-align: center;
+}
+
+.content {
+    font-size: 15px;
+}
+
+
+.title {
+    color: green;
+    font-weight: 200;
+    letter-spacing: 0.07em;
+    margin: 2% 0;
+}
+
+.main-title {
+    font-size: 48px;
+}
+
+.section-title {
+    font-size: 30px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 2% 0;
+}
