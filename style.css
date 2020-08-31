@@ -10,7 +10,7 @@ body {
 }
 
 main {
-    margin: 2% 0;
+    margin-top: 3%;
 }
 
 
@@ -22,7 +22,7 @@ main {
 
 .main-title {
     color: green;
-    font-size: 40px;
+    font-size: 48px;
     display: flex;
     align-items: center;
     /* margin: 3% 0; */
@@ -36,21 +36,34 @@ main {
 
 .section-title {
     color: rgb(53, 114, 149);
-    font-size: 26px;
+    font-size: 28px;
     display: inline-block;
-    padding: 0.5%;
     border-radius: 8px;
-    background: rgb(245, 245, 135);
-    margin: 1em 0;
+    /* background: rgb(245, 245, 135); */
+    margin: 0.5em 0;
+    /* padding: 0.5em; */
+}
+
+.accent-line {
+    width: 5em;
+    height: 0.2em;
+    margin-bottom: 1em;
+    background: rgb(167, 236, 135);
 }
 
 .content {
     font-family: Nunito;
     font-weight: 200;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 2em;
     margin: 0 4%;
 }
+
+li {
+    margin: 0.5em;
+}
+
+
 
 .fas {
     margin-right: 1%;
@@ -65,7 +78,7 @@ main {
 
 @media(max-width:700px) {
     main {
-        margin: 3%;
+        margin: 5%;
     }
 
     .main-title {
@@ -78,6 +91,9 @@ main {
 
     .section-title {
         font-size: 20px;
-        padding: 1%;
+    }
+    
+    .content {
+        font-size: 18px;
     }
 }
