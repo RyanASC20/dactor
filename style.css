@@ -17,7 +17,6 @@ main {
 .title {
     font-family: Roboto;
     font-weight: 700;
-    /* margin: 3% 0; */
 }
 
 .main-title {
@@ -25,13 +24,11 @@ main {
     font-size: 48px;
     display: flex;
     align-items: center;
-    /* margin: 3% 0; */
 }
 
 #title-logo {
-    max-height: 100px;
-    width: auto;
-    margin-right: 2%;
+    max-height: 3em;
+    margin-right: 1em;
 }
 
 .section-title {
@@ -39,9 +36,7 @@ main {
     font-size: 28px;
     display: inline-block;
     border-radius: 8px;
-    /* background: rgb(245, 245, 135); */
     margin: 0.5em 0;
-    /* padding: 0.5em; */
 }
 
 .accent-line {
@@ -53,7 +48,7 @@ main {
 
 .content {
     font-family: Nunito;
-    font-weight: 200;
+    font-weight: 700;
     font-size: 20px;
     line-height: 2em;
     margin: 0 4%;
@@ -80,19 +75,19 @@ li {
 
 @media(max-width:700px) {
     main {
-        margin: 5%;
+        margin: 5% 2%;
     }
 
     .main-title {
-        font-size: 26px;
+        font-size: 22px;
     }
 
     #title-logo {
-        max-height: 90px;
+        max-height: 5em;
     }
 
     .section-title {
-        font-size: 22px;
+        font-size: 20px;
     }
     
     .content {
